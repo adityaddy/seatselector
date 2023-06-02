@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import { getFirestore, getDoc, doc, setDoc, runTransaction} from "firebase/firestore"; 
+import { getFirestore, doc, runTransaction} from "firebase/firestore"; 
 
 interface BookedSeatState {
   bookedSeat: Array<number>,
